@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, StatusBar, Text } from 'react-native';
+import { SafeAreaView, StatusBar, Text, FlatList } from 'react-native';
 
 const servicos = [
     {
@@ -20,7 +20,7 @@ const servicos = [
         preco: 99.9,
         descricao: "Uma dose da vacina antirrábica. Seu gato precisa de uma por ano!"
     }
-]
+];
 
 
 //export default so pode ser utilizado uma vez por arquivo
@@ -29,6 +29,12 @@ export default function Servicos(){
         <SafeAreaView>
             <StatusBar />
             <Text>Serviços</Text>
+            <FlatList 
+                data={servicos} 
+                renderItem={({item: {nome}}) =>
+                <Text>{nome}</Text>}
+                keyExtractor={(id) => String(id)}
+            />
         </SafeAreaView>
     );
 }
