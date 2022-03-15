@@ -32,11 +32,8 @@ export default function Servicos(){
             <Text>Serviços</Text>
             <FlatList 
                 data={servicos} 
-                renderItem={
-                    ({item}) =>
-                <Item {...item} />
-            }
-                keyExtractor={(id) => String(id)}
+                renderItem={({item}) => <Item {...item} />}
+                keyExtractor={({id}) => String(id)}
             />
         </SafeAreaView>
     );
