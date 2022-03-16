@@ -32,7 +32,9 @@ export default function Rotas() {
             backgroundColor: cores.laranja,
           },
           //esconde a navbarbottom qnd abre o teclado
-          tabBarHideOnKeyboard: true
+          tabBarHideOnKeyboard: true,
+          //esconde nome das screens no header
+          headerShown: false,
         }}
       >
         <Tab.Screen name="Serviços" component={Servicos} />
