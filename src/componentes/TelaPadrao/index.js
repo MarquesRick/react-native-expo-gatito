@@ -5,7 +5,7 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from "react-native";
-import estilosGlobal from '../,,/estilos';
+import estilosGlobal from '../../estilos';
 
 export default function TelaPadrao({ children }) {
   return (
