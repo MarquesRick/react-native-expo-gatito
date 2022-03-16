@@ -6,4 +6,8 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: cores.roxo,
   },
+  ajusteTelaBaixo: {
+    flex: 0,
+    backgroundColor: cores.laranja,
+  },
 });
