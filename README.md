@@ -16,4 +16,4 @@
 ℹ️&nbsp;<b>[ReactNavigatio]</b> - Para navegação entre telas <br />
 
 <br />
-📞 [Contato](https://www.linkedin.com/in/henri-marques/)
+📞  [Contato](https://www.linkedin.com/in/henri-marques/)
