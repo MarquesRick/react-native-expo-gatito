@@ -15,5 +15,4 @@
 ℹ️&nbsp;<b>[KeyboardAvoidingView]</b> - Para não deixar que o teclado sobreponha a view <br />
 ℹ️&nbsp;<b>[ReactNavigatio]</b> - Para navegação entre telas <br />
 
-<br />
-📞  [Contato](https://www.linkedin.com/in/henri-marques/)
+ 👨‍💻 Desenvolvido por [Henrique Marques](https://www.linkedin.com/in/henri-marques/)
